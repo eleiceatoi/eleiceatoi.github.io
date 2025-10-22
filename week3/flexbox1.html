@@ -4,11 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flexbox1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+<style>
+    body {
+        background-color: rgba(246, 245, 239);
+    }
+
+    .r {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+        font-family: "Oxygen", sans-serif;
+    }
+
+    .c {
+        background-color: rgb(255, 255, 255);
+        padding: 12px;
+        border-radius: 10px;
+        font-style: "Oxygen";
+    }
+
+    .i {
+        background-color: rgb(255, 255, 255);
+        padding: 12px;
+        border-radius: 10px;
+        font-style: "Oxygen";
+    }
+
+    .flex {
+        display: flex;
+        gap: 16px;
+    }
+
+    /* .flex div {
+        width: calc(100%/3);
+    } */
+
+    .image1 {
+        width: 100%;
+        min-height: 300px;
+        background-image: url(images/rp.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .image2 {
+        width: 100%;
+        min-height: 300px;
+        background-image: url(images/cs.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .image3 {
+        width: 100%;
+        min-height: 300px;
+        background-image: url(images/iw.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+</style>
 
 <body>
-
+    <div class="flex">
+        <div class="r">
+            <div class="image1">
+            </div>
+            <h3>Residential projects</h3>
+            <p>We build sustainable and modern homes for comfortable living</p>
+        </div>
+        <div class="c">
+            <div class="image2"></div>
+            <h3>Commercial spaces</h3>
+            <p>We create efficient,inspiring workspaces for businesses of all sizes</p>
+        </div>
+        <div class="i">
+            <div class="image3"></div>
+            <h3>Infrastructure works</h3>
+            <p>We develop strong infrastructure for growing communities</p>
+        </div>
+    </div>
 </body>
 
 </html>
