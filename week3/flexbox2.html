@@ -12,43 +12,50 @@
 <style>
     body {
         background-color: rgba(246, 245, 239);
-        margin: 10px;
+        margin: 8px;
         padding: 0;
         font-family: "Oxygen", sans-serif;
     }
 
     .background {
         background-color: rgb(255, 255, 255);
-        padding: 15px 13px;
-        margin: 25px;
-        border-radius: 3px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        padding: 10px 25px;
+        margin: 25px;
+        border-radius: 5px;
+
     }
 
     .logo {
-        display: flex;
-        gap: 5px;
-        margin-right: 780px;
+        height: 40px;
+        width: 250px;
+        display: cover;
+        justify-content: center;
     }
 
     .menu-icon {
-        width: 26px;
-        height: auto;
-        margin-left: 300px;
+        height: 20px;
+        width: 50px;
+        display: cover;
+
     }
 
-    .logo2 {
-        position: fixed;
-        margin-bottom: 30px;
-        margin-left: 10px;
+    .right-call {
+        display: flex;
+        align-items: center;
+        gap: 20px
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
 </style>
 
 <body>
     <div class="background">
-        <div class="h1>"></div>
         <div class="logo">
             <img src="images/logo.png" alt="logo" width="200px">
         </div>
@@ -56,6 +63,20 @@
             <img src="images/menu.png" alt="menu" width="50px">
         </div>
     </div>
+    <div class="background">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" width="200px">
+        </div>
+        <div class="right-call">
+            <div class="contact"></div>
+            <img src="images/phone.png" alt="contact" width="30px">
+        </div>
+        <p>555-123-4567</p>
+        <div class="menu-icon">
+            <img src="images/menu.png" alt="menu" width="50px">
+        </div>
+    </div>
+
 </body>
 
 
