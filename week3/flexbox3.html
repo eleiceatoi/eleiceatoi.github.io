@@ -26,16 +26,13 @@
     }
 
     .logo {
-        height: 40px;
-        width: 250px;
-        display: cover;
-        justify-content: center;
-        font-family: "Space Grotesk", sans-serif;
+        height: 28px;
+        width: auto
     }
 
     .navlink {
         display: flex;
-        gap: 18px;
+        gap: 20px;
         justify-content: center;
         font-family: "Space Grotesk", sans-serif;
         font-weight: bold;
@@ -55,6 +52,7 @@
         font-family: "Space Grotesk", sans-serif;
         font-weight: light;
         font-size: 18px;
+        text-decoration: none;
     }
 
     .text {
@@ -65,6 +63,40 @@
         font-family: "Space Grotesk", sans-serif;
         font-weight: bold;
         font-size: 25px;
+    }
+
+    .text h1 {
+        margin-bottom: 10px;
+    }
+
+    .text p {
+        margin-bottom: 28px;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: justify;
+    }
+
+    .image1 {
+        text-align: right;
+    }
+
+    .Booking {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 20px 30px;
+        border-radius: 15px;
+        background-color: rgb(0, 0, 0);
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: light;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: "Space Grotesk", sans-serif;
+    }
+
+    .image2 {
+        text-align: center;
+        gap: 20px;
+        justify-content: space-between;
     }
 </style>
 
@@ -86,15 +118,26 @@
     <div class="text">
         <div class="text-area">
             <h1>Navigating the digital landscape for success</h1>
-            <p>Our digital marketing agency helps business grow and succeed online through a range of service
-                including
-                SEO,PPC,social media merketing,and content creation.</p>
-            <a href="#">Book a consultation</a>
             <div class="image1">
                 <img src="images/_image.svg" alt="image" width="300px">
+                <p>Our digital marketing agency helps business grow and succeed online through a range of service
+                    including
+                    SEO,PPC,social media merketing,and content creation.</p>
+                <button class="Booking">Book a consultation
+                </button>
+
             </div>
         </div>
     </div>
+    <div class="image2">
+        <img src="images/amazon.svg" alt="amazon" width="100px">
+        <img src="images/dribble.svg" alt="dribble" width="100px"><img src="images/hubspot.svg" alt="hubspor"
+            width="100px"><img src="images/notion.svg" alt="notion" width="100px"><img src="images/netflix.svg"
+            alt="netflix" width="100px">
+        <img src="images/zoom.svg" alt="zoom" width="100px">
+
+    </div>
+
 </body>
 
 </html>
