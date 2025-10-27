@@ -12,39 +12,127 @@
 <style>
     body {
         background-color: rgba(246, 245, 239);
-        margin: 8px;
-        padding: 0;
+        gap: 30xpx;
+        padding: 10px 0;
         font-family: "Oxygen", sans-serif;
+        margin: 10;
     }
 
-    .background {
-        background-color: rgb(255, 255, 255);
+    .navbar {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        padding: 15px 10px;
-        margin-bottom: 30px;
-        border-radius: 5px;
-
+        background-color: white;
+        padding: 10px 50px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
     }
 
     .logo {
-        height: 40px;
-        width: 250px;
-        display: cover;
-        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-icon {
+        margin-right: 10px;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-family: "Oxygen", sans-serif;
+
+    }
+
+    .contact {
+        font-family: "Oxygen", sans-serif;
     }
 
     .menu-icon {
-        height: 20px;
-        width: 50px;
-        display: cover;
-
+        margin-left: 900px;
     }
 
-    .right-call {
+    .nav-links {
+        display: flex;
+        gap: 30px;
+        font-family: "Oxygen", sans-serif;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-family: "Oxygen", sans-serif;
+    }
+
+    .nav-link.active {
+        color: #e85a2a;
+    }
+
+    .contact-btn {
+        background-color: #e85a2a;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-family: "Oxygen", sans-serif;
+    }
+
+    .contact-btn:hover {
+        background-color: #cf4e24;
+    }
+
+    .right-section {
         display: flex;
         align-items: center;
-        gap: 20px
+        gap: 15px;
+    }
+</style>
+
+<style>
+    body {
+        font-family: 'Oxygen', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 30px;
+        border-radius: 5px;
+
+        margin: 20px auto
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+
+    .menu-icon img {
+        width: 28px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 
     .contact {
@@ -53,45 +141,85 @@
         gap: 8px;
     }
 
+    .contact img {
+        width: 22px;
+        height: auto;
+    }
+
+    .contact span {
+        font-size: 14px;
+    }
+
+
+    .contact-btn {
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+
+    }
+
+
     .nav-links {
         display: flex;
-        align-items: center;
-        gap: 20px;
+        gap: 25px;
     }
 
     .nav-links a {
         text-decoration: none;
         color: #333;
+        font-size: 15px;
+    }
+
+    .nav-links a.active {
+        color: #e67e22;
         font-weight: bold;
     }
+
+    .nav-links a:hover {
+        color: #e67e22;
+    }
 </style>
+</head>
 
 <body>
-    <div class="background">
+
+
+    <div class="navbar">
         <div class="logo">
-            <img src="images/logo.png" alt="logo" width="200px">
+            <img src="images/logo.png" alt="Logo" width="200px">
+
         </div>
         <div class="menu-icon">
-            <img src="images/menu.png" alt="menu" width="50px">
+            <img src="images/menu.png" alt="Menu" width="50px">
         </div>
     </div>
-    <div class="background">
+
+
+    <div class="navbar">
         <div class="logo">
-            <img src="images/logo.png" alt="logo" width="200px">
+            <img src="images/logo.png" alt="Logo" width="200px">
         </div>
-        <div class="right-call">
-            <div class="contact"></div>
-            <img src="images/phone.png" alt="contact" width="30px">
-        </div>
-        <p>555-123-4567</p>
-        <div class="menu-icon">
-            <img src="images/menu.png" alt="menu" width="50px">
+
+        <div class="right-side">
+            <div class="contact">
+                <img src="images/phone.png" alt="contact" width="30px">
+                <p>555-123-4567</p>
+            </div>
+            <div class="menu-icon">
+                <img src="images/menu.png" alt="Menu" width="50px">
+            </div>
         </div>
     </div>
-    <div class="background">
+
+
+
+    <div class="navbar">
         <div class="logo">
-            <img src="images/logo.png" alt="logo" width="200px">
+            <img src="images/logo.png" alt="Logo" width="200px">
         </div>
+
         <div class="nav-links">
             <a href="#">Home</a>
             <a href="#" class="active">Services</a>
@@ -100,18 +228,16 @@
             <a href="#">Contact</a>
         </div>
 
-        <div class="right-call">
-            <img src="images/phone.png" alt="contact" width="30px">
-            <p>555-123-4567</p>
-        </div>
-
-        <div class="menu-icon">
-            <img src="images/menu.png" alt="menu" width="50px">
+        <div class="right-side">
+            <div class="contact">
+                <img src="images/phone.png" alt="Phone">
+                <p>555-123-4567</p>
+            </div>
+            <button class="contact-btn">Contact</button>
         </div>
     </div>
 
 </body>
-
 
 
 </html>
