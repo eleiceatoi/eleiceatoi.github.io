@@ -13,6 +13,8 @@
     body {
         background-color: rgb(225, 222, 222);
         font-family: "Oxygen", sans-serif;
+        margin: 0;
+        padding: 0;
     }
 
     .navbar {
@@ -20,15 +22,19 @@
         justify-content: space-between;
         padding: 10px 15px;
         background-color: rgb(255, 255, 255);
-        margin-bottom: 20px;
-        border-radius: 5px;
-        margin: 30px auto;
+        align-items: center;
     }
 
 
     .logo {
         display: flex;
         align-items: center;
+        gap: 8px;
+    }
+
+    .logo img {
+        width: auto;
+        height: 28px;
     }
 
     .navlink {
@@ -37,6 +43,7 @@
     }
 
     .navlink a {
+        display: flex;
         text-decoration: none;
         color: black;
     }
@@ -55,6 +62,11 @@
         align-items: center;
     }
 
+    .right {
+        display: flex;
+        align-items: center;
+    }
+
     .contactno {
         display: flex;
         align-items: center;
@@ -63,8 +75,19 @@
     }
 
     .contacttext {
+        display: flex;
         font-size: 14px;
+        font-family: "Oxygen", sans-serif;
     }
+
+    .button {
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+
 
     .menulogo {
         display: flex;
@@ -75,33 +98,34 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="images/logo.png" alt="logo" width="200px">
+            <img src="images/logo.png" alt="logo">
         </div>
-    </div>
 
-    <div class="navlink">
-        <a href="#">Home</a>
-        <a href="#" class="orange">Service</a>
-        <a href="#">Work</a>
-        <a href="#">Project Details</a>
-        <a href="#">Contact</a>
-    </div>
 
-    <div class="phonelogo">
-        <img src="images/phone.png" alt="phone" width="3%">
-    </div>
+        <div class="navlink">
+            <a href="#">Home</a>
+            <a href="#" class="orange">Service</a>
+            <a href="#">Work</a>
+            <a href="#">Project Details</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="right">
+            <div class="phonelogo">
+                <img src="images/phone.png" alt="phone" width="3%">
+            </div>
+        </div>
 
-    <div class="contactno">
-        <p>555-123-4567</p>
-    </div>
+        <div class="contactno">
+            <p>555-123-4567</p>
+        </div>
 
-    <div class="contacttext">
-        <button>Contact</button>
-    </div>
+        <div class="contacttext">
+            <button class="button">Contact</button>
+        </div>
 
-    <div class="menulogo">
-        <img src="images/menu.png" alt="menulogo" width="100%">
-    </div>
+        <div class="menulogo">
+            <img src="images/menu.png" alt="menulogo" width="100%">
+        </div>
 </body>
 
 </html>
