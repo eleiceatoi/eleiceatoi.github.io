@@ -106,10 +106,41 @@
         border-radius: 2px;
     }
 
-    @media(max-width:1000px) {
+    @media (max-width:1000px) {
         .navlink {
             display: none;
         }
+
+        .menulogo {
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .right.button {
+            display: none;
+        }
+
+        .right {
+            margin-left: auto;
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    @media (max-width:800px) {
+        .navlink {
+            display: flex;
+        }
+
+        .menulogo {
+            display: flex;
+        }
+
+        .right {
+            display: none;
+        }
+    }
 </style>
 
 <body>
