@@ -13,7 +13,7 @@
     body {
         font-family: "Space Grotesk", sans-serif;
         margin: 20;
-        padding: 0;
+        padding: 10px 30px;
     }
 
     .logo {
@@ -23,32 +23,69 @@
 
     .navlink {
         display: flex;
-        gap: 20px;
-        justify-content: center;
+        gap: 30px;
+        justify-content: space-between;
         font-weight: 500;
-        text-align: center;
+        align-items: center;
+        padding: 10px 20px;
     }
 
     .navlink a {
         text-decoration: none;
-        justify-content: center;
         align-items: center;
         color: black;
         font-size: 16px;
+        font-weight: 450;
+        margin: 0 10px;
+    }
+
+    .navlink a.active {
+        color: black;
+        background-color: greenyellow;
+        padding: 4px 10px;
+        border-radius: 5px;
+    }
+
+    .quote {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 10px 20px;
+        background-color: white;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 450;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .quote:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
 <body>
     <div class="logo">
-        <img src="images/usecase logo.png" alt="logo" width="15%">
+        <img src="images/usecase logo.png" alt="logo" width="10%">
 
         <div class="navlink">
             <a href="#">About us</a>
             <a href="#">Services</a>
-            <a href="#">Use Cases</a>
+            <a href="#" class="active">Use Cases</a>
             <a href="#">Pricing</a>
             <a href="#">Blog</a>
             <button class="quote">Request a quote</button>
+        </div>
+
+    </div>
+    <div class="icon">
+        <img src="images/usecase2.png" alt="icon" width="20%">
+
+        <div class="text1">
+            <h1>Proven Success Stories</h1>
+            <p>See how our innovative digital marketing strategies have transformed business.Wherther through
+                SEO,PPC,social media,or web design,these use cases highlight the tangible impact of our work.Explore the
+                successes and envision what we can achieve together.</p>
         </div>
     </div>
 </body>
