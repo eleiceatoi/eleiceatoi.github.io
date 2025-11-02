@@ -12,12 +12,36 @@
 <style>
     body {
         padding: 30px 30px;
-        background-color: #F5E5E1;
+        background-color: #F7A5A5;
         font-family: "Acme", sans-serif;
+        margin: 0;
+    }
+
+    .header {
+        background: #FFF2EF;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 20px;
+        justify-content: space-between;
+        display: flex;
+        background-color: #FFDBB6;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
     .me {
         text-align: center;
+        padding: 40px 20px;
     }
 
     .circle {
@@ -31,20 +55,87 @@
     .Name {
         text-align: center;
     }
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        border-radius: 50%;
+        margin: 0 auto 15px;
+    }
+
+    .title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .desc {
+        font-size: 14px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+
+    .week h3 img {
+        width: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    .weeks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px 10px;
+    }
+
+    .week {
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 220px;
+        flex-wrap: wrap;
+    }
+
+    .week h3 {
+        border-bottom: 1px solid #999;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .week .full {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        background: #2fa44f;
+        color: white;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .footer-socials img {
+        width: 18px;
+        margin: 0 8px;
+    }
 </style>
 
 <body>
     <header>
-        <div class="logo"></div>
-        <img src="logo.png" alt="logo">
-        <div class="socials">
-            <a href="https://www.instagram.com/eleiceatoi_?igsh=N3hzMmt5eDdiYTI5" target="_blank">
-                <img src="ig logo.png" alt="Instagram" width="60"></a>
-            <a href="https://www.facebook.com/share/15jmKRBTyA/?mibextid=wwXIfr" target="_blank"><img src="facebook.png"
-                    alt="Facebook" width="60"></a>
-            <a href="https://www.youtube.com/@eleiceatoi6978" target="_blank"><img src="youtube.png" alt="Youtube"
-                    width="60"></a>
-
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+            <div class="socials">
+                <a href="https://www.instagram.com/eleiceatoi_?igsh=N3hzMmt5eDdiYTI5" target="_blank">
+                    <img src="ig logo.png" alt="Instagram" width="60"></a>
+                <a href="https://www.facebook.com/share/15jmKRBTyA/?mibextid=wwXIfr" target="_blank"><img
+                        src="facebook.png" alt="Facebook" width="60"></a>
+                <a href="https://www.youtube.com/@eleiceatoi6978" target="_blank"><img src="youtube.png" alt="Youtube"
+                        width="60"></a>
+            </div>
         </div>
     </header>
 
@@ -56,9 +147,54 @@
         <p>Web Publishing</p>
         <p class="desc">Hello! I'm is Eleicea Toi, a sport player who love in Taekwon-DO and basketball. I love playing
             guitar when i am free.And also I love gym. Welcome to my personal page!</p>
-
-
     </div>
+    <div class="weeks">
+        <div class="week">
+            <h3>
+                <img src="check.png" alt="calendar icon">
+                Week 2
+            </h3>
+            <p>Exercise 1</p>
+            <p>Exercise 2</p>
+        </div>
+
+        <div class="week">
+            <h3>
+                <img src="check.png" alt="calendar icon">
+                Week 3
+            </h3>
+            <p>Exercise 1</p>
+            <p>Exercise 2</p>
+        </div>
+
+        <div class="week">
+            <h3>
+                <img src="check.png" alt="calendar icon">
+                Week 4
+            </h3>
+            <p>Exercise 1</p>
+            <p>Exercise 2</p>
+        </div>
+    </div>
+    <div class="week full">
+        <h3>
+            <img src="check.png" alt="calendar icon">
+            Week 5
+        </h3>
+        <p>Exercise 1</p>
+        <p>Exercise 2</p>
+    </div>
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/eleiceatoi_?igsh=N3hzMmt5eDdiYTI5" target="_blank">
+                <img src="ig logo.png" alt="Instagram" width="60"></a>
+            <a href="https://www.facebook.com/share/15jmKRBTyA/?mibextid=wwXIfr" target="_blank"><img src="facebook.png"
+                    alt="Facebook" width="60"></a>
+            <a href="https://www.youtube.com/@eleiceatoi6978" target="_blank"><img src="youtube.png" alt="Youtube"
+                    width="60"></a>
+        </div>
+        <p>© 2024 Eleicea Toi Goke Hon. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
