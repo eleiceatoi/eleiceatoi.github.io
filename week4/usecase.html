@@ -18,6 +18,7 @@
     .logo {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .navlink {
@@ -54,8 +55,8 @@
         font-family: "Space Grotesk", sans-serif;
         font-weight: 450;
         display: flex;
-        align-items: center;
         gap: 25px;
+        margin-left: 10px;
 
     }
 
@@ -128,6 +129,53 @@
         font-weight: lighter;
         display: flex;
     }
+
+    @media(max-width:770px) {
+        .text1 {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .icon {
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+
+    .errow {
+        font-weight: 400;
+        color: #B9FF66;
+    }
+
+    .stat-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        width: 400px;
+    }
+
+    .box {
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        padding: 10px 20px;
+        text-align: center;
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .box h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 </style>
 
 <body>
@@ -145,7 +193,7 @@
 
     </div>
     <div class="icon">
-        <img src="images/usecase2.png" alt="icon" width="20%">
+        <img src="images/usecase2.png" alt="icon" width="25%">
 
         <div class="text">
             <div class="text-area">
@@ -164,8 +212,28 @@
             <p>Scaling Success for a Leading E-Commerce Brand</p>
             <p>Through a comprehensive SEO and PPC strategy,we helped this e-commerce brand increase
                 visibility,drive traffic,and boost sales.</p>
+            <div class="errow">
+                <p>Read</p>
+            </div>
         </div>
-
+        <div class="stat-container">
+            <div class="box">
+                <h3>200%</h3>
+                <p>increase in organic traffic</p>
+            </div>
+            <div class="box">
+                <h3>150%</h3>
+                <p>rise in online sales</p>
+            </div>
+            <div class="box">
+                <h3>75%</h3>
+                <p>reduction in cost-per-click(CPC)</p>
+            </div>
+            <div class="box">
+                <h3>300%</h3>
+                <p>improvement in conversion rate</p>
+            </div>
+        </div>
     </div>
 </body>
 
