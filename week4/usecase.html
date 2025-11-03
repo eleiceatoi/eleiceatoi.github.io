@@ -19,6 +19,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 60px;
+        padding: 0 20px;
     }
 
     .navlink {
@@ -46,6 +48,12 @@
         padding: 4px 10px;
         border-radius: 5px;
     }
+
+
+    .navlink2 {
+        display: none;
+    }
+
 
     .quote {
         border: 1px solid black;
@@ -91,6 +99,7 @@
         line-height: 1.6;
         color: #333;
         font-size: 16px;
+        font-weight: 600;
     }
 
     .image-block {
@@ -177,6 +186,22 @@
             display: none;
         }
 
+        .navlink {
+            display: none;
+        }
+
+        .navlink2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+
+        }
+
+        .hamburger-icon {
+            display: block;
+            line-height: 1;
+        }
 
         .text1 {
             flex-direction: column;
@@ -232,7 +257,6 @@
         margin: 5px;
         width: 150px;
         height: 150px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -257,9 +281,14 @@
             <a href="#">Pricing</a>
             <a href="#">Blog</a>
             <button class="quote">Request a quote</button>
+
         </div>
 
+        <div class="navlink2">
+            <div class="hamburger-icon">☰</div>
+        </div>
     </div>
+
     <div class="section">
         <div class="image-block">
             <img src="images/usecase2.png" alt="icon">
