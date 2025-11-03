@@ -12,14 +12,12 @@
     rel="stylesheet">
 <style>
     body {
-
-        background-color: #F7A5A5;
+        background-image: url(bg1.jpg);
         font-family: "Aleo", serif;
         margin: 0;
     }
 
     .header {
-        background: #FFF2EF;
         color: white;
         display: flex;
         justify-content: space-between;
@@ -31,7 +29,7 @@
         font-size: 20px;
         justify-content: space-between;
         display: flex;
-        background-color: #1A2A4F;
+        background-color: #C2E2FA;
         padding: 5px 10px;
     }
 
@@ -44,7 +42,8 @@
 
     .me {
         text-align: center;
-        padding: 40px 20px;
+        padding: 15px 25px;
+
     }
 
     .circle {
@@ -57,12 +56,13 @@
 
     .Name {
         text-align: center;
+        color: #FFBBE1;
+        font-weight: bold;
     }
 
     .avatar {
         width: 100px;
         height: 100px;
-        background: #ccc;
         border-radius: 50%;
         margin: 0 auto 15px;
     }
@@ -79,12 +79,6 @@
         line-height: 1.5;
     }
 
-
-    .week h3 img {
-        width: 20px;
-        margin-right: 5px;
-    }
-
     .weeks {
         display: flex;
         flex-wrap: wrap;
@@ -96,26 +90,43 @@
     }
 
     .week {
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.2);
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        width: 200px;
+        width: 410px;
         flex-wrap: wrap;
         text-align: center;
 
     }
 
     .week h3 {
-        border-bottom: 2px solid #999;
+        border-bottom: 2px solid rgb(153, 153, 153);
         padding-bottom: 5px;
         margin-bottom: 10px;
+        color: #FFBBE1;
     }
 
-    .week .full {
-        width: 100%px;
-        max-width: 600px;
+    .week h3 img {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+
+    .week a {
+        text-decoration: none;
+        color: #B3BFFF;
+    }
+
+    .week2 .full {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px 600px;
+        text-decoration: none;
         margin: 0 auto;
+        width: 200px;
     }
 
     .footer {
@@ -123,7 +134,7 @@
         padding: 8px;
         margin-top: 20px;
         text-align: center;
-        background-color: #1A2A4F;
+        background-color: #C2E2FA;
         justify-content: center;
     }
 
@@ -189,13 +200,15 @@
             <p> <a href="https://eleiceatoi.github.io/week3/flexbox3.html" target="_blank">Exercise 3</a></p>
         </div>
     </div>
-    <div class="week full">
-        <h3>
-            <img src="check.png" alt="calendar icon">
-            Week 4
-        </h3>
-        <p> <a href="https://eleiceatoi.github.io/week4/menu.html" target="_blank">Exercise 1</a></p>
-        <p> <a href="https://eleiceatoi.github.io/week4/usecase.html" target="_blank">Exercise 2</a></p>
+    <div class="week2">
+        <div class="week full">
+            <h3>
+                <img src="check.png" alt="calendar icon">
+                Week 4
+            </h3>
+            <p> <a href="https://eleiceatoi.github.io/week4/menu.html" target="_blank">Exercise 1</a></p>
+            <p> <a href="https://eleiceatoi.github.io/week4/usecase.html" target="_blank">Exercise 2</a></p>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-socials">
@@ -207,6 +220,7 @@
                     width="30"></a>
         </div>
         <p>© 2024 Eleicea Toi Goke Hon. All rights reserved.</p>
+    </div>
     </div>
 </body>
 
