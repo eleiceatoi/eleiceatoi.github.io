@@ -1,0 +1,134 @@
+body {
+    background-image: url(../image/bg1.jpg);
+    font-family: "Aleo", serif;
+    margin: 0;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #C2E2FA;
+    padding: 5px 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.me {
+    text-align: center;
+    padding: 15px 25px;
+
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.Name {
+    text-align: center;
+    color: #FFBBE1;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.weeks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.week {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 410px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.week h3 {
+    border-bottom: 2px solid rgb(153, 153, 153);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #FFBBE1;
+}
+
+.week h3 img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.week a {
+    text-decoration: none;
+    color: #B3BFFF;
+}
+
+.week2 .full {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px 600px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #C2E2FA;
+    justify-content: center;
+}
+
+.footer-socials img {
+    margin: 0 8px;
+    gap: 10px;
+    text-align: center;
+}
