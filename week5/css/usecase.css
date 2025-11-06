@@ -1,25 +1,3 @@
-body {
-    font-family: "Space Grotesk", sans-serif;
-    padding: 10px 30px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding: 0 40px;
-}
-
-.navlink {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    font-weight: 500;
-    align-items: center;
-    padding: 10px 20px;
-}
-
 .navlink a {
     text-decoration: none;
     align-items: center;
@@ -36,12 +14,6 @@ body {
     padding: 4px 10px;
     border-radius: 5px;
 }
-
-
-.navlink2 {
-    display: none;
-}
-
 
 .quote {
     border: 1.5px solid black;
@@ -106,13 +78,6 @@ body {
     width: 250px;
     border-radius: 15px;
     margin: 20px auto;
-    display: block;
-}
-
-.image-block img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 15px;
     display: block;
 }
 
