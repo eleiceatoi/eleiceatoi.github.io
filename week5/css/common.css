@@ -1,14 +1,13 @@
 body {
     font-family: "Space Grotesk", sans-serif;
     padding: 10px 30px;
+    margin: 0;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
-    padding: 0 40px;
 }
 
 .navlink {
