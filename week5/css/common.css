@@ -1,6 +1,5 @@
 body {
     font-family: "Space Grotesk", sans-serif;
-    padding: 10px 30px;
     margin: 0;
 }
 
@@ -13,13 +12,14 @@ body {
 
 .logo {
     align-items: center;
-    width: 14%;
+    width: 100%;
+    max-width: 100px;
 
 }
 
 .fullpage {
     max-width: 1400px;
-    padding: 40px;
+    padding: 38px;
 }
 
 .navlink {
@@ -52,7 +52,10 @@ body {
 
 .hamburger-icon {
     display: none;
-    display: flex;
+}
+
+.navlink2 {
+    display: none;
 }
 
 
@@ -83,4 +86,25 @@ body {
     background-color: #F3F3F3;
     border-radius: 20px;
     flex-wrap: wrap;
+}
+
+@media (max-width: 770px) {
+    .navlink {
+        display: none;
+    }
+
+    .navlink2 {
+        display: block;
+    }
+
+    .hamburger-icon {
+        display: block;
+        font-size: 32px;
+        color: black;
+    }
+
+
+    .logo img {
+        width: 100%;
+    }
 }
