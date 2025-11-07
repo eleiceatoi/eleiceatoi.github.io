@@ -12,13 +12,13 @@ body {
 .logo {
     align-items: center;
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
 
 }
 
 .fullpage {
     max-width: 1400px;
-    padding: 5%;
+    padding: 4%;
 }
 
 .navlink {
@@ -35,7 +35,7 @@ body {
     text-decoration: none;
     align-items: center;
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 450;
     margin: 0 10px;
     justify-content: space-between;

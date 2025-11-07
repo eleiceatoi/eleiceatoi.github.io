@@ -66,12 +66,9 @@
     width: 12%;
 }
 
-@media (max-width: 922px) {
-    .text-area h1 {
-        font-size: 40px;
-    }
+.text {
+    font-size: 30px;
 }
-
 
 @media (max-width: 770px) {
     .fullpage {

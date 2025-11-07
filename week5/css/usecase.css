@@ -9,7 +9,7 @@
     text-decoration: none;
     align-items: center;
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 450;
     margin: 0 10px;
     justify-content: space-between;
@@ -66,7 +66,7 @@
 
 .text-block {
     text-align: left;
-    max-width: 600px;
+    width: 100%;
 }
 
 .text-block h2 {
@@ -83,6 +83,10 @@
     font-size: 18px;
     font-weight: 400;
 
+}
+
+.image-block img {
+    width: 60%;
 }
 
 .image-block {
@@ -173,6 +177,16 @@
     font-size: 18px;
     font-weight: 500;
     padding: 2px 5px;
+}
+
+.errow {
+    width: 2%;
+}
+
+.read {
+    font-size: 15px;
+    color: #B9FF66;
+    display: flex;
 
 }
 
@@ -184,6 +198,9 @@
 }
 
 @media(max-width:770px) {
+    .fullpage {
+        padding: 20px
+    }
 
     .navigation {
         display: flex;
