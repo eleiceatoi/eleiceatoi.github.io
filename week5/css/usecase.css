@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
 }
 
 .navlink a {
@@ -58,6 +57,7 @@
     background-color: #F3F3F3;
     border-radius: 20px;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .textcontent {
@@ -162,11 +162,61 @@
     gap: 20px;
 }
 
+.text-area2 img {
+    width: 5%;
+    align-items: center;
+}
+
+
 .text-area2 {
     flex: 1;
     font-weight: 400;
     line-height: 1.6;
     padding: 0 2%
+}
+
+.star {
+    width: 3%;
+
+}
+
+.star img {
+    height: auto;
+}
+
+.featured-title {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+}
+
+
+.star-icon {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.featured-heading {
+    color: #B9FF66;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+}
+
+a.green {
+    display: flex;
+    width: 25%;
+
+}
+
+.greentext h1 {
+    color: #B9FF66;
 }
 
 .green {
@@ -177,23 +227,24 @@
     font-size: 18px;
     font-weight: 500;
     padding: 2px 5px;
+    align-items: center;
+    display: flex;
+    width: 30%;
 }
 
 .arrowandread {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
 }
 
-.arrow {
-    width: 3%;
-}
 
 .read {
     font-size: 15px;
     color: #B9FF66;
     display: flex;
     align-items: center;
+    font-weight: 600;
 
 }
 
@@ -201,6 +252,7 @@
     font-family: "Space Grotesk", sans-serif;
     font-weight: lighter;
     display: flex;
+    width: 60%;
 
 }
 
@@ -234,8 +286,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-
     }
 
     .hamburger-icon {
@@ -319,6 +369,44 @@
         text-align: center;
     }
 
+
+
+    .featured-title {
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+
+    .star-icon {
+        width: 30px;
+    }
+
+
+    .featured-heading {
+        font-size: 28px;
+    }
+
+
+    .green {
+        display: none;
+    }
+
+    .greentext {
+        text-align: left;
+    }
+
+    .text-area2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
     .stat-container {
         flex-direction: column;
         align-items: center;
@@ -333,6 +421,10 @@
         width: 100%;
         text-align: center;
         margin-top: 20px;
+    }
+
+    .arrowandread {
+        text-align: left;
     }
 }
 
