@@ -60,6 +60,10 @@
     flex-wrap: wrap;
 }
 
+.textcontent {
+    justify-items: center;
+}
+
 .text-block {
     text-align: left;
     max-width: 600px;
@@ -158,6 +162,7 @@
     flex: 1;
     font-weight: 400;
     line-height: 1.6;
+    padding: 0 2%
 }
 
 .green {
@@ -175,7 +180,7 @@
     font-family: "Space Grotesk", sans-serif;
     font-weight: lighter;
     display: flex;
-    width: 65%;
+
 }
 
 @media(max-width:770px) {
