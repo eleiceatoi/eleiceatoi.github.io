@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
-    gap: 40px;
+}
+
+.text-area {
+    width: 40%;
 }
 
 .text-area h1 {
@@ -20,8 +23,10 @@
 
 .image1 {
     text-align: right;
-    margin-left: 5px;
-    margin-right: 50px;
+    /* margin-left: 5px;
+    margin-right: 50px; */
+    width: 50%;
+
 }
 
 .Booking {
@@ -35,6 +40,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+
 }
 
 .Booking:hover {
@@ -49,16 +55,29 @@
 .image2 {
     align-items: center;
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: space-between;
     height: 45px;
     width: auto;
-    margin: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
+
 }
 
+.image2 img {
+    width: 12%;
+}
+
+@media (max-width: 922px) {
+    .text-area h1 {
+        font-size: 40px;
+    }
+}
+
+
 @media (max-width: 770px) {
+    .fullpage {
+        padding: 20px
+    }
+
     .navigation {
         display: flex;
         justify-content: space-between;
@@ -76,7 +95,7 @@
     }
 
     .text-area {
-        max-width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -116,6 +135,7 @@
         padding: 15px 25px;
         display: inline-block;
         margin: 0 auto;
+        width: 100%;
     }
 
     .image2 {

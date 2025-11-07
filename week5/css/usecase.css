@@ -184,6 +184,7 @@
 }
 
 @media(max-width:770px) {
+
     .navigation {
         display: flex;
         justify-content: space-between;

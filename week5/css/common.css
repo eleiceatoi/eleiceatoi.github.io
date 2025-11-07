@@ -7,7 +7,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .logo {
@@ -19,7 +18,7 @@ body {
 
 .fullpage {
     max-width: 1400px;
-    padding: 38px;
+    padding: 5%;
 }
 
 .navlink {
