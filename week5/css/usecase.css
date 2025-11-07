@@ -179,14 +179,21 @@
     padding: 2px 5px;
 }
 
-.errow {
-    width: 2%;
+.arrowandread {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow {
+    width: 3%;
 }
 
 .read {
     font-size: 15px;
     color: #B9FF66;
     display: flex;
+    align-items: center;
 
 }
 
@@ -322,7 +329,7 @@
         margin: 0 auto;
     }
 
-    .errow {
+    .arrow {
         width: 100%;
         text-align: center;
         margin-top: 20px;
