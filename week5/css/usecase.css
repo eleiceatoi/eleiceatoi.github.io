@@ -29,7 +29,6 @@
     display: none;
 }
 
-
 .quote {
     border: 1.5px solid black;
     border-radius: 10px;
@@ -163,7 +162,7 @@
 }
 
 .text-area2 img {
-    width: 5%;
+    width: 2%;
     align-items: center;
 }
 
@@ -194,14 +193,11 @@
 .star-icon img {
     width: 40px;
     height: auto;
-    /* display: none; */
-
 }
 
 .star-icon {
     display: none;
 }
-
 
 .featured-heading {
     color: #B9FF66;
@@ -229,6 +225,7 @@ a.green {
     font-size: 18px;
     display: inline-block;
     width: 30%;
+    align-items: center;
 }
 
 .arrowandread {
@@ -255,7 +252,6 @@ a.green {
     font-family: "Space Grotesk", sans-serif;
     font-weight: lighter;
     display: flex;
-    width: 60%;
 
 }
 
@@ -263,7 +259,7 @@ a.green {
     display: flex;
 }
 
-.read-bt2 {
+.read-arrow {
     display: none;
 }
 
@@ -375,45 +371,49 @@ a.green {
 
     .text2 {
         align-items: center;
-        justify-content: center;
-        text-align: left;
+        text-align: center;
 
     }
 
     .featured-out {
         flex-direction: column;
+        align-items: center;
     }
 
 
     .featured-title {
         justify-content: center;
-        display: block;
-        gap: 8px;
-        margin-bottom: 10px;
+        gap: 10px;
+        margin-bottom: 15px;
         display: flex;
-
+        flex-direction: row;
+        align-items: center;
     }
 
     .featured-content h2 {
         font-size: 18px;
         width: 100%;
+
     }
 
     .featured-content p {
         font-size: 15px;
-        width: 100%;
     }
 
     .star-icon {
         width: 22px;
         display: block;
-    }
 
+    }
 
     .featured-heading {
         font-size: 28px;
+        margin: 0;
     }
 
+    .read-btn {
+        display: none;
+    }
 
     .green {
         display: none;
@@ -442,6 +442,7 @@ a.green {
         max-height: 100%;
         gap: 15px;
         margin: 0 auto;
+
     }
 
     .arrow {
@@ -454,10 +455,19 @@ a.green {
         text-align: left;
     }
 
-    .read-bt2 {
-        text-decoration: none;
+    .read-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto 0;
         color: #B9FF66;
-        display: none;
+        font-weight: 600;
+        text-decoration: none;
+        gap: 8px;
+    }
+
+    .read-arrow img {
+        width: 5%;
     }
 }
 
@@ -467,8 +477,8 @@ a.green {
     text-decoration: none;
     font-size: 16px;
     margin-top: 30px;
-    display: inline-block;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .stat-container {
