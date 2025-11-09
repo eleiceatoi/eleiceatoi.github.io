@@ -10,7 +10,6 @@
 }
 
 .text-area h1 {
-    margin-bottom: 10px;
     font-size: 55px;
 }
 
@@ -25,8 +24,12 @@
     text-align: right;
     /* margin-left: 5px;
     margin-right: 50px; */
-    width: 50%;
+    width: 45%;
 
+}
+
+.image-block {
+    display: none;
 }
 
 .Booking {
@@ -59,7 +62,6 @@
     justify-content: space-between;
     height: 45px;
     width: auto;
-
 }
 
 .image2 img {
@@ -107,9 +109,10 @@
     }
 
     .image1 {
-        width: 100%;
+        width: 50%;
         text-align: center;
         margin: 10px 0;
+        display: none;
     }
 
     .image1 img {
@@ -125,6 +128,10 @@
         line-height: 1.6;
         margin-bottom: 20px;
         margin-top: 15px;
+    }
+
+    .image-block {
+        display: block;
     }
 
     .Booking {
