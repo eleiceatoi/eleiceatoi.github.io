@@ -50,7 +50,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 15px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
     top: -100px;
     width: 80%;
@@ -79,7 +79,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
-    margin-top: 1px;
 }
 
 .blog-item1 {
