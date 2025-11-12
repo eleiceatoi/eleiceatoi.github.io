@@ -5,9 +5,9 @@ body {
 
 .blog-section {
     text-align: center;
-    padding: 30px 10px;
     max-width: 1200px;
     margin: auto;
+    padding: 10px 20px;
 }
 
 .blog-section h1 {
@@ -34,6 +34,7 @@ body {
     width: 100%;
     max-width: 30%;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -51,6 +52,13 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
+    position: relative;
+    top: -100px;
+    width: 80%;
+    align-items: center;
+    display: inline-block;
+
+
 }
 
 .text-box h3 {
@@ -72,6 +80,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    margin-top: 1px;
 }
 
 .blog-item1 {
