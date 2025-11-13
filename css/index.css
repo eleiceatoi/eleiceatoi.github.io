@@ -108,7 +108,7 @@ body {
 
 .weeks2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 20px;
     padding: 30px 10px;
@@ -123,10 +123,9 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     text-decoration: none;
-    width: 45%;
+    width: 29%;
     font-weight: bold;
 }
-
 
 .footer {
     color: white;
