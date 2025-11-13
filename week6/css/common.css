@@ -35,16 +35,28 @@ body {
     display: none;
     position: absolute;
     width: 150px;
-    top: 20px;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 10px 0;
 }
 
 .submenu a {
     display: block;
     padding: 5px;
+    padding: 10px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 .menu-item:hover .submenu {
     display: block;
+    background-color: #afafae;
+    border-radius: 4px;
 }
 
 .menu-item {
