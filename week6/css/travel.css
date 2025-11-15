@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: "DM Sans", sans-serif;
 }
 
 .containerrelative {
@@ -12,9 +13,9 @@ body {
 
 .container {
     border-radius: 20px;
-    box-shadow: 0 3px 6px #000000;
+    box-shadow: 0 2px 10px #2094e1;
     padding: 20px;
-    width: 50%;
+    width: 70%;
     position: relative;
 }
 
@@ -39,21 +40,40 @@ body {
     gap: 10px;
     margin-top: 10px;
     font-size: 15px;
+    color: rgb(182, 182, 182);
 }
 
-.icons {
+.iconcircle {
+    width: 40%;
     display: flex;
-    gap: 15px;
-    font-size: 20px;
+    gap: 30px;
+}
+
+.iconcircle div {
+    border-radius: 15px;
+    background-color: rgb(182, 182, 182);
+
+}
+
+.icons img {
+    width: 60%;
+    align-items: center;
+    justify-content: center
 }
 
 .people {
     font-size: 14px;
+    margin-top: 15px;
+    color: rgb(182, 182, 182);
+}
+
+.people img {
+    width: 5%;
 }
 
 .circle {
-    width: 20%;
-    height: 45px;
+    width: 25%;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -64,10 +84,11 @@ body {
     text-align: center;
     width: 50%;
     position: absolute;
-    right: -10px;
+    right: -15px;
     bottom: 20px;
     text-align: center;
-    
+    background-color: white;
+
 }
 
 
