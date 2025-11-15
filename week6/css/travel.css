@@ -58,23 +58,40 @@ body {
 .icons img {
     width: 60%;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
+
 
 .people {
     font-size: 14px;
     margin-top: 15px;
     color: rgb(182, 182, 182);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .people img {
     width: 5%;
+    opacity: 0.7;
+}
+
+
+.hearticon {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 5%;
+    opacity: 0.7;
+    align-items: center;
 }
 
 .circle {
-    width: 25%;
-    height: 50px;
+    width: 60%;
+    height: 40px;
     border-radius: 50%;
+
 }
 
 .smallcard {
@@ -82,13 +99,14 @@ body {
     box-shadow: 0 2px 6px #00000090;
     padding: 15px;
     text-align: center;
-    width: 50%;
+    width: 55%;
     position: absolute;
-    right: -15px;
-    bottom: 20px;
+    right: -35px;
+    bottom: 30px;
     text-align: center;
     background-color: white;
-
+    display: flex;
+    height: 100px;
 }
 
 
@@ -98,14 +116,19 @@ body {
     text-align: center;
 }
 
+.percentcomplete {
+    display: flex;
+    gap: 10px
+}
+
 .complete {
     position: relative;
     height: 6px;
     background-color: #eee;
     border-radius: 3px;
     margin: 8px 0;
-    width: 40%;
     text-align: center;
+
 }
 
 .completeFill {
@@ -121,11 +144,35 @@ body {
     color: rgb(172, 169, 172);
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: left;
 }
+
+.status p {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
 
 .percent {
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     color: #6a17d9;
-    font-weight: bold;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.percent1 {
+    color: black;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+.cardsWrapper {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: flex-start;
 }
