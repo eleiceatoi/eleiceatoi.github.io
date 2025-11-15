@@ -47,11 +47,15 @@ body {
     width: 40%;
     display: flex;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .iconcircle div {
     border-radius: 15px;
     background-color: rgb(182, 182, 182);
+    position: relative;
+
 
 }
 
