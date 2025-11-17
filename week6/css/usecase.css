@@ -123,6 +123,7 @@
     line-height: 1.2;
 }
 
+
 .text-block p {
     color: #333;
     font-weight: 400;
@@ -151,14 +152,14 @@
 
 .text2 {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     background-color: #191A23;
     color: #fff;
     border-radius: 30px;
     padding: 30px 60px;
-    gap: 40px;
+    gap: 25px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .text-area2 img {
@@ -171,7 +172,6 @@
     flex: 1 1 45%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
 .star {
@@ -204,6 +204,9 @@
     font-size: 42px;
     font-weight: 700;
     margin: 0;
+    display: none;
+    align-items: center;
+
 }
 
 a.green {
@@ -214,6 +217,7 @@ a.green {
 
 .featured-title h1 {
     color: #B9FF66;
+    display: flex;
 }
 
 .green {
@@ -224,7 +228,6 @@ a.green {
     font-weight: 600;
     font-size: 18px;
     display: inline-block;
-    width: 30%;
     align-items: center;
 }
 
@@ -370,7 +373,6 @@ a.green {
     }
 
     .text2 {
-        align-items: center;
         text-align: center;
 
     }
@@ -409,6 +411,7 @@ a.green {
     .featured-heading {
         font-size: 28px;
         margin: 0;
+        display: flex;
     }
 
     .read-btn {
