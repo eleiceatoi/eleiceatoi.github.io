@@ -51,18 +51,12 @@ body {
     justify-content: center;
 }
 
-.iconcircle div {
-    border-radius: 15px;
-    background-color: rgb(182, 182, 182);
-    position: relative;
-
-
-}
-
 .icons img {
-    width: 60%;
+    width: 10px;
     align-items: center;
-    justify-content: center;
+    padding: 5px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 15px;
 }
 
 
