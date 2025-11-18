@@ -4,11 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
 
+    <h2>Registration Form - Middle School</h2>
+
+    <form action="/action_page.php">
+        <div class="name">
+            <div class="fname">
+                <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+            </div>
+
+            <div class="lname">
+                <input type="text" id="lname" name="lname" placeholder="Last Name">
+            </div>
+        </div>
+
+        <label for="dob">Date of Birth:</label><br>
+
+        <div class="dobemail">
+            <input type="date" id="dob" name="dob"><br>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+
+
+
+
+        <div>
+            <label for="Homepage url">Homepage url:</label><br>
+            <input type="url" id="url" name="url" placeholder="Homepage url"><br>
+        </div>
+
+        <div class="color"> <label for="Fvrcolor">Favourite Colors:</label><br>
+            <select name="Fvrcolor" id="Fvrcolor">
+                <option value="Pink">Pink</option>
+                <option value="Red">Red</option>
+                <option value="Skyblue">Skyblue</option>
+                <option value="Purple">Purple</option>
+            </select>
+        </div>
+
+        <div class="bio">
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="Bio" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="submit">
+            <button type="button" onclick="alert('Submit')">Submit</button>
+        </div>
+
+
+
+    </form>
 </body>
 
 </html>
