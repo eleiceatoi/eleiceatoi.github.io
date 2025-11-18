@@ -33,7 +33,7 @@ label {
 form {
     background-color: antiquewhite;
     border-radius: 15px;
-    padding: 15px 20px;
+    padding: 15px 40px;
 }
 
 .name {
@@ -57,8 +57,21 @@ form {
 
 .bio {
     margin-top: 10px;
+    border: none;
 }
 
 .submit {
     margin-top: 10px;
+}
+
+textarea {
+    border: none;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px
 }
