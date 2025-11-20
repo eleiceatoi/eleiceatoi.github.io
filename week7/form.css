@@ -25,9 +25,9 @@ input {
     padding: 5px;
 }
 
-label {
-    justify-content: center;
-    margin-top: 10px;
+.label {
+    justify-content: left;
+    margin-top: 5px;
 }
 
 form {
@@ -50,13 +50,34 @@ form {
     justify-content: left;
 }
 
+.url-color {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.home {
+    margin-top: 10px;
+}
+
 .color {
     margin-top: 10px;
     justify-content: center;
 }
 
+select {
+    border: none;
+    border-radius: 10px;
+    padding: 3px 5px;
+    background-color: pink;
+}
+
+.select {
+    display: flex;
+}
+
 .bio {
-    margin-top: 10px;
+    margin-top: 15px;
     border: none;
 }
 
