@@ -15,6 +15,15 @@
 <body>
     <div class="fullpage">
         <div class="navigation">
+            <div class="mobile-menu">
+                <div class="close-btn">×</div>
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="usecase.html">Use Cases</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+                <button class="quote">Request a quote</button>
+            </div>
             <div class="logo">
                 <img src="images/usecase logo.png" alt="logo" width="100%">
             </div>
@@ -52,33 +61,50 @@
 
 
 
+    </div>
 
-        <div class="text">
-            <div class="text-area">
-                <h1>Navigating the digital landscape for success</h1>
-                <div class="image-block">
-                    <img src="images/Illustration.png" alt="image" width="100%">
-                </div>
-                <p>Our digital marketing agency helps business grow and succeed online through a range of service
-                    including
-                    SEO,PPC,social media merketing,and content creation.</p>
-                <button class="Booking">Book a consultation
-                </button>
-            </div>
-            <div class="image1">
+
+    <div class="text">
+        <div class="text-area">
+            <h1>Navigating the digital landscape for success</h1>
+            <div class="image-block">
                 <img src="images/Illustration.png" alt="image" width="100%">
             </div>
+            <p>Our digital marketing agency helps business grow and succeed online through a range of service
+                including
+                SEO,PPC,social media merketing,and content creation.</p>
+            <button class="Booking">Book a consultation
+            </button>
         </div>
-
-        <div class="image2">
-            <img src="images/amazon.png" alt="amazon" width="100%">
-            <img src="images/dribble.png" alt="dribble" width="100%"><img src="images/hubspot.png" alt="hubsport"
-                width="100%"><img src="images/notion.png" alt="notion" width="100%"><img src="images/netflix.png"
-                alt="netflix" width="100%">
-            <img src="images/zoom.png" alt="zoom" width="100%">
-
+        <div class="image1">
+            <img src="images/Illustration.png" alt="image" width="100%">
         </div>
     </div>
+
+    <div class="image2">
+        <img src="images/amazon.png" alt="amazon" width="100%">
+        <img src="images/dribble.png" alt="dribble" width="100%"><img src="images/hubspot.png" alt="hubsport"
+            width="100%"><img src="images/notion.png" alt="notion" width="100%"><img src="images/netflix.png"
+            alt="netflix" width="100%">
+        <img src="images/zoom.png" alt="zoom" width="100%">
+
+    </div>
+
+
+    <script>
+        const menuBtn = document.querySelector(".hamburger-icon");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const closeBtn = document.querySelector(".close-btn");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+        });
+    </script>
+
 
 </body>
 
