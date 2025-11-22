@@ -171,44 +171,5 @@
         height: auto;
     }
 
-    /* .mobile-menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #222;
-        z-index: 3000;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 60px;
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.3s ease;
-    }
-
-    .mobile-menu.active {
-        opacity: 1;
-        pointer-events: auto;
-    }
-
-    .mobile-menu a {
-        color: white;
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    .close-btn {
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        font-size: 2.5rem;
-        color: white;
-        cursor: pointer;
-    }
- */
 
 }
