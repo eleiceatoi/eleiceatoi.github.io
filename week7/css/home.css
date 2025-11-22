@@ -72,9 +72,7 @@
     font-size: 30px;
 }
 
-.mobile-menu {
-    display: none;
-}
+
 
 @media (max-width: 770px) {
     .fullpage {
@@ -173,7 +171,7 @@
         height: auto;
     }
 
-    .mobile-menu {
+    /* .mobile-menu {
         position: fixed;
         top: 0;
         left: 0;
@@ -187,7 +185,6 @@
         justify-content: center;
         align-items: center;
         gap: 60px;
-
         opacity: 0;
         pointer-events: none;
         transition: 0.3s ease;
@@ -212,6 +209,6 @@
         color: white;
         cursor: pointer;
     }
-
+ */
 
 }
